@@ -4,5 +4,8 @@
 /* Header */
 @import "./Header/header.css";
 
+/* Menu */
+@import "./Menu/menu.css";
+
 /* Container */
 @import "./Container/container.css";
