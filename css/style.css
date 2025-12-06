@@ -3,3 +3,6 @@
 
 /* Header */
 @import "./Header/header.css";
+
+/* Container */
+@import "./Container/container.css";
