@@ -1,0 +1,20 @@
+.header-bg {
+  background-color: #122ab2;
+  color: white;
+}
+
+.top-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.top-info a {
+  color: white;
+}
+
+.top-info a,
+p {
+  margin: 0 10px 10px 10px;
+}
