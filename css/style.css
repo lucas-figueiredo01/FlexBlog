@@ -15,3 +15,6 @@
 
 /* Produtos */
 @import "./Produtos/produtos.css";
+
+/* Planos */
+@import "./Planos/planos.css";
