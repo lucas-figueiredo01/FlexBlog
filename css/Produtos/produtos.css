@@ -1,0 +1,55 @@
+.produtos {
+  margin: 60px auto;
+}
+
+.produtos h1 {
+  font-size: 3rem;
+  margin: 0 10px 40px 10px;
+}
+
+.produtos-itens {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.produtos-itens li {
+  flex: 1 1 175px;
+  margin: 10px;
+  padding-bottom: 20px;
+}
+
+.produtos-itens h2 {
+  font-size: 3rem;
+  color: #a4a4a4;
+  background-color: #f7f7f7;
+  padding: 20px 20px;
+}
+
+.purple,
+.pink,
+.blue {
+  position: relative;
+}
+
+.purple::before,
+.pink::before,
+.blue::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  width: 100%; /* tamanho da linha */
+  height: 8px; /* espessura da linha */
+}
+
+.purple::before {
+  background-color: #ae81ff;
+}
+
+.pink::before {
+  background-color: #f9265e;
+}
+
+.blue::before {
+  background-color: #66d9eb;
+}
