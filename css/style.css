@@ -21,3 +21,6 @@
 
 /* Qualidade */
 @import "./Qualidade/qualidade.css";
+
+/* Newsletter */
+@import "./Newsletter/newsletter.css";
