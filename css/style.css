@@ -24,3 +24,6 @@
 
 /* Newsletter */
 @import "./Newsletter/newsletter.css";
+
+/* Footer */
+@import "./Footer/footer.css";
