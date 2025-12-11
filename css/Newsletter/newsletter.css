@@ -6,7 +6,7 @@
 }
 
 .newsletter-info {
-  flex: 1 1 200px;
+  flex: 1 1 240px;
   margin: 0 10px;
   align-self: center;
 }
@@ -56,4 +56,10 @@
   margin: 0px;
   cursor: pointer;
   border: 100px;
+}
+
+@media (max-width: 600px) {
+  .newsletter-form button {
+    font-size: 1.5rem;
+  }
 }
